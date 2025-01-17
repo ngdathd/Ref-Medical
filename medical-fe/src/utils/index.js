@@ -253,7 +253,7 @@ export const FORMAT_DATE_MONGO_ISO = "YYYY-MM-DDTHH:mm:ssZ";
 export const FORMAT_DATE_TIME = "DD/MM/YYYY HH:mm";
 export const FORMAT_TIME = "HH:mm";
 export const FORMAT_FULL_TIME = "HH:mm:ss";
-export const baseURL = "http://localhost:5000";
+export const baseURL = "http://localhost:8080";
 export const baseUrlSocket = "http://localhost:3000";
 
 export const getToday = () => {

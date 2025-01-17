@@ -1,6 +1,8 @@
 const { connect } = require("mongoose");
 
-const dbConnectionString = "mongodb://localhost:27017/medical";
+require('dotenv').config();
+
+const dbConnectionString = process.env.MONGO_URL;
 
 connect(dbConnectionString, {
  useNewUrlParser: true,

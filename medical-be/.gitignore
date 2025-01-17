@@ -1,4 +1,12 @@
-node_modules
+# OSX
+#
+.DS_Store
+
+# node.js
+#
+node_modules/
+
+.env
+
 uploads/**
 !uploads/LOCAL_FILE_UPLOADS
-package-lock.json

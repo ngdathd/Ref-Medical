@@ -32,6 +32,8 @@ const statisticRoute = require("./src/routes/statistic.routes");
 const chatRoutes = require("./src/routes/chat.routes");
 const conversationRoutes = require("./src/routes/conversation.routes");
 
+require('dotenv').config();
+
 app.use("/user", userRoute);
 app.use("/file", fileRoute);
 app.use("/auth", authRoute);
@@ -48,8 +50,8 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "/src/view/serverRunning.html"));
 });
 
-const port = 5000;
-const portSocket = 3000;
+const port = process.env.PORT || 8080;
+const portSocket = process.env.PORT_SOCKET || 3000;
 const { createServer } = require("http");
 const { Server } = require("socket.io");
 const { createChat } = require("./src/controllers/chat/chat.controller");
