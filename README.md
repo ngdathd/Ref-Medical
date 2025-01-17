@@ -102,6 +102,9 @@
             gender: "male"
         }
         ```
+
+- Tài khoản Admin có thể thêm tài khoản người dùng với các chức vụ khác nhau. Mật khẩu mặc định của các tài khoản này là `123456`
+
 - Khởi chạy dev:
      ```sh
     npm run dev
