@@ -135,3 +135,5 @@
 </details>
 
 #### Màn hình
+
+https://github.com/user-attachments/assets/fd4415f8-e723-4620-b8d6-bdf19bd85190
